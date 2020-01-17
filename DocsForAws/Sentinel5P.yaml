@@ -32,14 +32,10 @@ Resources:
     Type: S3 Bucket
 DataAtWork:
   Tutorials:
-    - Title:  Accessing Sentinel-5P Data on S3 by MEEO (example: https://github.com/planet-os/notebooks/blob/master/aws/era5-s3-via-boto.ipynb)
+    - Title:  Accessing Sentinel-5P Data on S3 by MEEO 
       URL: https://adamplatform.eu/index.php/2019/11/13/adam-the-digital-earth-platform/
       AuthorName: Meteorological Envionmental Earth Observation
       AuthorURL: http://www.meeo.it/
-    - Title:  Sentinel-5P analysis using the ADAM platform 
-      URL: https://adamplatform.eu/index.php/2019/11/13/adam-the-digital-earth-platform/
-      AuthorName: http://www.meeo.it/
-      AuthorURL:  http://www.meeo.it/
   Tools & Applications:
     - Title: Sentinel Application Platform (SNAP)
       URL: https://step.esa.int/main/toolboxes/snap/
