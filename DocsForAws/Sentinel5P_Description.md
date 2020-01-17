@@ -57,7 +57,7 @@ Where:
 * **YYYYMMDDTHHMMSS (15 characters):** End of acquisition time (note T is a fixed character).
 * **Orbit (5 characters):** Orbit Number.
 * **NN (2 characters):** Collection number.
-* **MMmmpp (5 characters):** Processor number, with “MM” teh major version number, “mm” the minor version number and “pp” as the patch level.
+* **MMmmpp (5 characters):** Processor number, with “MM” the major version number, “mm” the minor version number and “pp” as the patch level.
 * **YYYYMMDDTHHMMSS (15 characters):** the data processing time (note T is a fixed character).
 * **NC (2 characters):** the file name extension. File formats are netCDF-4 there the extension will be “nc”
       
