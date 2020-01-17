@@ -127,8 +127,5 @@ The paths to the geo-tiff files and the file names are constructed as follows:
 		S5P_OFFL_L2__NO2____20191001T012402_20191001T030531_10182_01_010302_20191007T032229_nitrogendioxide_tropospheric_column.tif
 
  
-## Data Catalogue
-MEEO have implemented a [SpatioTemporal Asset Catalog](https://stacspec.org/) for this data archive. This is a  technology that is aimed at providing a standard way to catologue Earth observation data on the Cloud.
-
-### SpatioTemporal Asset Catalog (STAC)
-A SpatioTemporal Asset Catalog is generated daily and is stored [here](https://meeo-s5p.s3.amazonaws.com/index.html#/?t=catalogs).
+## SpatioTemporal Asset Catalog (STAC)
+MEEO have implemented a [SpatioTemporal Asset Catalog](https://meeo-s5p.s3.amazonaws.com/index.html#/?t=catalogs) for this data archive. The catalogue is updated daily. You can read more about STAC [here](https://stacspec.org/).
