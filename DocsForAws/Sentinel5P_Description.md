@@ -1,6 +1,6 @@
 ## Introduction
 
-The [Sentinel-5 Precursor (Sentinel-5P)](https://earth.esa.int/web/guest/missions/esa-eo-missions/sentinel-5p) satellite is an active European Space Agency Earth observation platform that is funded under the [European Commission's Copernicus Earth Observation Programme](https://www.copernicus.eu/en). Sentinel 5P is a polar orbiting satellite that completes 14 orbits of the Earth a day.
+The [Sentinel-5 Precursor (Sentinel-5P)](https://earth.esa.int/web/guest/missions/esa-eo-missions/sentinel-5p) satellite is an active European Space Agency Earth observation platform that is funded under the [European Commission's Copernicus Earth Observation Programme](https://www.copernicus.eu/en). Sentinel-5P is a polar orbiting satellite that completes 14 orbits of the Earth a day.
 
 Sentinel-5P, carries the [TROPOspheric Monitoring Instrument](http://www.tropomi.eu/) (TROPOMI) which is a spectrometer that senses ultraviolet (UV), visible (VIS), near (NIR) and short-wave infrared (SWIR). Output from these sensors are used to generate products to monitor ozone, methane, formaldehyde, aerosol, carbon monoxide, nitrogen dioxide and sulphur dioxide in the atmosphere. These products are known as level 2 products.
 
