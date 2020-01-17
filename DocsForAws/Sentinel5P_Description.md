@@ -131,5 +131,4 @@ The paths to the geo-tiff files and the file names are constructed as follows:
 MEEO have implemented a [SpatioTemporal Asset Catalog](https://stacspec.org/) for this data archive. This is a  technology that is aimed at providing a standard way to catologue Earth observation data on the Cloud.
 
 ### SpatioTemporal Asset Catalog (STAC)
-A SpatioTemporal Asset Catalog is generated daily and is stored here:
-[https://meeo-s5p.s3.amazonaws.com/index.html#/?t=catalogs](https://meeo-s5p.s3.amazonaws.com/index.html#/?t=catalogs)
+A SpatioTemporal Asset Catalog is generated daily and is stored [here](https://meeo-s5p.s3.amazonaws.com/index.html#/?t=catalogs).
