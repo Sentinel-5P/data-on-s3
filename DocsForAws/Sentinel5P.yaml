@@ -33,7 +33,7 @@ Resources:
 DataAtWork:
   Tutorials:
     - Title:  Accessing Sentinel-5P Data on S3 by MEEO 
-      URL: https://adamplatform.eu/index.php/2019/11/13/adam-the-digital-earth-platform/
+      URL: https://github.com/Sentinel-5P/data-on-s3/blob/master/notebooks/Sentinel5P_Tutorial.ipynb
       AuthorName: Meteorological Envionmental Earth Observation
       AuthorURL: http://www.meeo.it/
   Tools & Applications:
