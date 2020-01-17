@@ -11,6 +11,7 @@ The following are some details about the software requirements to run the notboo
 The notebooks included here use Python 3 and the floowing libraries:
 
 - **boto3**. The library for working programmatically with AWS 
+- **netcdf4**. The library for reading netcdf file formats.
 - **gdal**. The Geospatial Data Abstraction Library
 - **cartopy**.  A cartographic python library with Matplotlib support for visualisation.
 - **rasterio**. Rasterio is a highly useful module for raster processing which you can use for reading and writing several different raster formats in Python. It depends on gdal.
