@@ -1,1 +1,61 @@
+Name: Sentinel-5P
+
+Description: This data set consists of the observations from the Sentinel-5 Precursor (Sentinel-5P) satellite of the European Commission’s Copernicus Earth Observation programme. Sentinel 5p is a polar orbiting satellite that completes 14 orbits of the Earth a day. It carries the TROPOspheric Monitoring Instrument (TROPOMI) which is a spectrometer that senses ultraviolet (UV), visible (VIS), near (NIR) and short wave infrared (SWIR) to monitor ozone, methane, formaldehyde, aerosol, carbon monoxide, nitrogen dioxide and sulphur dioxide in the atmosphere. The satellite was launched in October 2017 and entered routine operational phase in March 2019. Data is available from July 2018 onwards.
+
+Documentation: **(www.meeo.it/s5pdocumentation.html)
+
+Contact: sentinel5p@meeo.it
+
+ManagedBy: "[Meteorological Envionmental Earth Observation] (http://www.meeo.it/)"
+
+UpdateFrequency: (daily for NRTI & COGT, weekly for OFFL, as needed for RPRO)
+
+Tags:
+  - air quality
+  - atmosphere
+  - earth observation
+  - environmental
+  - geospatial
+  - satellite imagery
+  - sustainability
+	
+License: European Commission open and free data licence (https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice)
+
+Resources:
+  - Description: Sentinel-5p Near Real Time Data (NRTI). NetCDF format.
+    ARN: arn:aws:s3:::meeo-s5p/NRTI/
+    Region: eu-central-1
+    Type: S3 Bucket
+  - Description: Sentinel-5p Off Line Data (OFFL) NetCDF format.
+    ARN: arn:aws:s3:::meeo-s5p/OFFL/
+    Region: eu-central-1
+    Type: S3 Bucket
+  - Description: Sentinel-5p Off Line Data (OFFL) NetCDF format.
+    ARN: arn:aws:s3:::meeo-s5p/RPRO/
+    Region: eu-central-1
+    Type: S3 Bucket
+  - Description: Sentinel-5p Cloud Opimised GeoTIFF (COGT). TIFF format.
+    ARN: arn:aws:s3:::meeo-s5p/COGT/
+    Region: eu-central-1
+    Type: S3 Bucket
+DataAtWork:
+  Tutorials:
+    - Title:  Accessing Sentinel-5P Data on S3 by MEEO (example: https://github.com/planet-os/notebooks/blob/master/aws/era5-s3-via-boto.ipynb)
+      URL: https://adamplatform.eu/index.php/2019/11/13/adam-the-digital-earth-platform/
+      AuthorName: Meteorological Envionmental Earth Observation
+      AuthorURL: http://www.meeo.it/
+    - Title:  Sentinel-5P analysis using the ADAM platform 
+      URL: https://adamplatform.eu/index.php/2019/11/13/adam-the-digital-earth-platform/
+      AuthorName: http://www.meeo.it/
+      AuthorURL:  http://www.meeo.it/
+  Tools & Applications:
+    - Title: Sentinel Application Platform (SNAP)
+      URL: https://step.esa.int/main/toolboxes/snap/
+      AuthorName: European Space Agency
+      AuthorURL: https://www.esa.int/
+  Publications:
+    - Title: Sentinel-5P TROPOMI Document Library
+      URL: https://sentinel.esa.int/web/sentinel/user-guides/sentinel-5p-tropomi/document-library
+      AuthorName: European Space Agency
+      AuthorURL: https://www.esa.int/
 
