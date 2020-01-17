@@ -3,7 +3,7 @@ Description: This data set consists of the observations from the Sentinel-5 Prec
 Documentation: https://github.com/Sentinel-5P/data-on-s3/blob/master/DocsForAws/Sentinel5P_Description.md
 Contact: sentinel5p@meeo.it
 ManagedBy: "[Meteorological Envionmental Earth Observation] (http://www.meeo.it/)"
-UpdateFrequency: Daily for NRTI & COGT, weekly for OFFL, as needed for RPRO
+UpdateFrequency: Daily
 Tags:
   - air quality
   - atmosphere
