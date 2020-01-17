@@ -1,12 +1,12 @@
-# MEEO_AWS_SENTINEL-5P
+## MEEO_AWS_SENTINEL-5P
 
 Jupyter Notebooks and assciated documents for working with Sentinel-5P Level 2 data stored in the AWS S3 bucket S3://meeo-s5p
 
-# Requirements
+## Requirements
 
 The following are some details about the software requirements to run the notbook. 
 
-## Python 3 & Libraries
+### Python 3 & Libraries
 
 The notebooks included here use Python 3 and the floowing libraries:
 
@@ -15,7 +15,7 @@ The notebooks included here use Python 3 and the floowing libraries:
 - **cartopy**.  A cartographic python library with Matplotlib support for visualisation.
 - **rasterio**. Rasterio is a highly useful module for raster processing which you can use for reading and writing several different raster formats in Python. It depends on gdal.
 
-## Sentinel-5p Data
+### Sentinel-5p Data
 
 The Sentinel-5P data stored on AWS can be browsed [here](https://meeo-s5p.s3.amazonaws.com/index.html#/?t=catalogs).
 
