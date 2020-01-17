@@ -19,8 +19,9 @@ The notebooks included here use Python 3 and the floowing libraries:
 
 The Sentinel-5P data stored on AWS can be browsed [here](https://meeo-s5p.s3.amazonaws.com/index.html#/?t=catalogs).
 
-This data set consists of the Level 2 products generated from observations from the Sentinel-5P satellite. The Sentinel data is divided by type, described below:
+### Summary
 
+This data set consists of the Level 2 products generated from observations from the Sentinel-5P satellite. The Sentinel data is divided by type, described below:
 
 - Near Real Time (NRTI): Products are available within 3 hours after sensing, shortly after that they will appear in the S3 bucket. These files are in the netCDF file format. Over time NRTI data gets replaced by OFFL data.
 
@@ -41,3 +42,5 @@ The bucket contains the following S5P Level 2 products:
 | Methane (CH4) total column | L2__CH4___ | methane_mixing_ratio |
 | Formaldehyde (HCHO) total column | L2__HCHO__ | formaldehyde_tropospheric_vertical_column |
 | UV Aerosol Index | L2__AER_AI | aerosol_index_354_388 |
+
+The full data desciption doucument can be read [here](https://github.com/Sentinel-5P/data-on-s3/blob/master/DocsForAws/Sentinel5P_Description.md).
