@@ -43,4 +43,4 @@ The bucket contains the following S5P Level 2 products:
 | Formaldehyde (HCHO) total column | L2__HCHO__ | formaldehyde_tropospheric_vertical_column |
 | UV Aerosol Index | L2__AER_AI | aerosol_index_354_388 |
 
-The full data desciption doucument can be read [here](https://github.com/Sentinel-5P/data-on-s3/blob/master/DocsForAws/Sentinel5P_Description.md).
+The full data description doucument can be read [here](https://github.com/Sentinel-5P/data-on-s3/blob/master/DocsForAws/Sentinel5P_Description.md).
