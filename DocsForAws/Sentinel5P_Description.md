@@ -129,4 +129,4 @@ The paths to the geo-tiff files and the file names are constructed as follows:
 
  
 ## SpatioTemporal Asset Catalog (STAC)
-MEEO have implemented a [SpatioTemporal Asset Catalog](https://meeo-s5p.s3.amazonaws.com/index.html#/?t=catalogs) for this data archive. The catalogue is updated daily. You can read more about STAC [here](https://stacspec.org/).
+MEEO have implemented a [SpatioTemporal Asset Catalog]((https://sentinel5p.adamplatform.eu/stac/v1/)) for this data archive. The catalogue is updated daily. You can read more about STAC [here](https://stacspec.org/).
