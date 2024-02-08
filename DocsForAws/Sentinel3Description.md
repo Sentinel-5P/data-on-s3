@@ -185,13 +185,13 @@ The bucket name for the Sentinel-3 Cloud Optimised Geo-TIFF data is:
 
 Geo-TIFFs are image files that have been generated from the original netCDF files that are contained in the .SEN3 folder associated to every Sentinel-3 data product.
 
-The paths to the **Geo-TIFF** files are constructed as for Sentinel-3 native data, while the extension of the file names changes from **.nc** to **.tif**
+The paths to the **Geo-TIFF** files are constructed as for Sentinel-3 native data without **.SEN3** extension but in addition the subdataset name and the **.tif** extension 
 
-> **s3://meeo-s3/NRT/S3A/OL_1_EFR____/2020/04/26/S3A_OL_1_EFR____20200426T100156_20200426T100456_20200426T115453_0179_057_293_2160_LN1_O_NR_002.SEN3/Oa01_radiance.nc**
+> **s3://meeo-s3/NTC/S3A/SL_2_LST___/2021/01/10/S3A_SL_2_LST____20210110T230550_20210110T230850_20210112T042128_0179_067_144_1620_LN2_O_NT_004.SEN3/LST_in.nc**
 > 
 >  becomes
 >  
-> **s3://meeo-s3-cog/NRT/S3A/OL_1_EFR____/2020/04/26/S3A_OL_1_EFR____20200426T100156_20200426T100456_20200426T115453_0179_057_293_2160_LN1_O_NR_002.SEN3/Oa01_radiance.tif**
+> **s3://meeo-s3-cog/NTC/S3A/SL_2_LST___/2021/01/10/S3A_SL_2_LST____20210110T230550_20210110T230850_20210112T042128_0179_067_144_1620_LN2_O_NT_004_LST.tif**
 
 
 ## SpatioTemporal Asset Catalog (STAC)
